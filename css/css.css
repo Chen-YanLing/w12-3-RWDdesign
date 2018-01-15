@@ -1,0 +1,222 @@
+@media screen and (min-width: 1200px) {
+  .container{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hide-lg{
+    display: none;
+  }
+
+  .row{
+    margin-right: -10px;
+  }
+
+  .col{
+    width: 100%;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+
+  .col-lg-11{width: 91.662%;}
+  .col-lg-10{width: 83.332%;}
+  .col-lg-9{width: 75%;}
+  .col-lg-8{width: 66.662%;}
+  .col-lg-7{width: 58.331%;}
+  .col-lg-6{width: 50%;}
+  .col-lg-5{width: 41.662%;}
+  .col-lg-4{width: 33.332%;}
+  .col-lg-3{width: 25%;}
+  .col-lg-2{width: 16.662%;}
+  .col-lg-1{width: 8.332%;}
+
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hide-md{
+    display: none;
+  }
+
+  .row{
+    margin-right: -15px;
+  }
+
+  .col{
+    width: 100%;
+    float: left;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .col-md-11{width: 91.662%;}
+  .col-md-10{width: 83.332%;}
+  .col-md-9{width: 75%;}
+  .col-md-8{width: 66.662%;}
+  .col-md-7{width: 58.331%;}
+  .col-md-6{width: 50%;}
+  .col-md-5{width: 41.662%;}
+  .col-md-4{width: 33.332%;}
+  .col-md-3{width: 25%;}
+  .col-md-2{width: 16.662%;}
+  .col-md-1{width: 8.332%;}
+
+}
+
+@media screen and (max-width: 480px) {
+  .container{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hide-sm{
+    display: none;
+  }
+
+  .row{
+    margin-right: -20px;
+  }
+
+  .col{
+    width: 100%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .col-sm-11{width: 91.662%;}
+  .col-sm-10{width: 83.332%;}
+  .col-sm-9{width: 75%;}
+  .col-sm-8{width: 66.662%;}
+  .col-sm-7{width: 58.331%;}
+  .col-sm-6{width: 50%;}
+  .col-sm-5{width: 41.662%;}
+  .col-sm-4{width: 33.332%;}
+  .col-sm-3{width: 25%;}
+  .col-sm-2{width: 16.662%;}
+  .col-sm-1{width: 8.332%;}
+
+}
+
+body{
+  font-family:Noto Sans CJK TC;
+  background-color: #3c2127;
+}
+
+img{
+  display: block;
+   height: auto;
+   max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+p{
+  display: block;
+  margin: 0 10px;
+}
+
+h1{
+  display: block;
+  margin: 0 10px;
+  font-size: 20px;
+  font-family: Noto Sans CJK TC Light;
+  color: #ccc;
+}
+
+h2{
+  font-size: 15px;
+  font-family: Noto Sans CJK TC Light;
+  display: block;
+  margin: 0 0;
+}
+
+h3{
+  font-size: 10px;
+  font-family: Noto Sans CJK TC Light;
+  display: block;
+  margin: 0 0;
+}
+
+footer{
+  font-size: 8px;
+  font-family: Noto Sans CJK TC Thin;
+  color: #edbe2c;
+  text-align: center;
+}
+
+footer .box{
+  border-top: thin solid #EDBE2C;
+  padding: 15px 0;
+}
+
+.header img{
+  border-bottom: thin solid #EDBE2C;
+}
+
+
+.nav a{
+  color: #edbe2c;
+}
+
+.Introduction .text{
+  font-size: 15px;
+  font-family: Noto Sans CJK TC Thin;
+  color: #ccc;
+  background-color: #6e1f23;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-bottom: thin solid #EDBE2C;
+}
+
+.menu{
+  color: #edbe2c;
+}
+
+.icon-menu{
+  color: #edbe2c;
+  width: 50%;
+  height: 50%;
+}
+
+.box{
+  background-color: #6e1f23;
+}
+
+.box-6e1f23{
+  background-color: #6e1f23;
+}
+
+.Charactor04 .row{
+  margin-bottom: 15px;
+}
+
+.H-center{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+  width: 66.667%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear{
+  clear: both;
+}
